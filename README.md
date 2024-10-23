@@ -27,7 +27,7 @@ I believe that I should have two different complexities for the best and worst c
 
 First due to how I check for sortedness before anything else, the best case would be an already sorted array which would have a complexity of $\Omega(n)$ because it will just run through the sorted functions for loop once and be done.
 
-However for the worst case I believe that it should be $O(nn!)$ because it needs to run through the array to check if it's sorted each permutation and the n! comes from the fact that we need to check each possible permutation which gets larger and larger in factorial time as the array increases in size.
+However for the worst case I believe that it should be $O(nn!)$ because it needs to run through the array while checking each permutation and the n! comes from the fact that we need to check each possible permutation which gets larger and larger in factorial time as the array increases in size and then  since the sorted function runs another full length for loop, so $O(nn! + n) \in O(nn!)$.
 
 I feel that if permutations were generated randomly it could be much shorter or infinitely longer because you could generate the correct permuation the first time or you could never find it.
 
