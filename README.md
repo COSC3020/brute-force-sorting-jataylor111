@@ -20,3 +20,13 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+----------------------------------------------------------------------
+
+I believe that I should have two different complexities for the best and worst case.
+
+First due to how I check for sortedness before anything else, the best case should be $\Omega(n)$ because it will just run through the sorted function for loop once and be done.
+
+However for the worst case I believe that it should be $O(nn!)$ because it needs to run through the array to check if it's sorted each permutation and the n! comes from the fact that we need to check each possible permutation which gets larger and larger in factorial time as the array increases in size.
+
+I feel that if permutations were generated randomly it could be much shorter or infinitely longer because you could generate the correct permuation the first time or you could never find it.
