@@ -25,8 +25,16 @@ most important part. Add your answer to this markdown file.
 
 I believe that I should have two different complexities for the best and worst case.
 
-First due to how I check for sortedness before anything else, the best case should be $\Omega(n)$ because it will just run through the sorted function for loop once and be done.
+First due to how I check for sortedness before anything else, the best case would be an already sorted array which would have a complexity of $\Omega(n)$ because it will just run through the sorted functions for loop once and be done.
 
 However for the worst case I believe that it should be $O(nn!)$ because it needs to run through the array to check if it's sorted each permutation and the n! comes from the fact that we need to check each possible permutation which gets larger and larger in factorial time as the array increases in size.
 
 I feel that if permutations were generated randomly it could be much shorter or infinitely longer because you could generate the correct permuation the first time or you could never find it.
+
+
+
+I tried looking up the best practices for how to declare global variables and got conflicting information so I just went with my best feeling, I don't have any links but figured I should mention it.
+
+I also ran my complexity by Ali before requesting review because I don't trust myself.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
