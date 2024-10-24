@@ -15,7 +15,9 @@ function permutationSort(a) {
     // Call the permutation function
     perm(a, 0);
 
-    return numPerms;
+    let retPerms = numPerms;
+    numPerms = 0;
+    return retPerms;
 }
 
 // Function that creates permutations and then calls the sorted function to check if it's correct
